@@ -6,6 +6,7 @@ Apenas uma repo para eu aprender enquanto pratico github a usar o webpack incial
 - cow-browser
 - webpack
 - node
+- babel-loader
 
 ## TODO
  
