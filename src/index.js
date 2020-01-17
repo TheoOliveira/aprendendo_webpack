@@ -1,16 +1,3 @@
-import _ from 'lodash';
+import cow from './cow'
 
-function component(){
-	const element = document.createElement('div');
-
-
-	// adicionar no div element
-	element.innerHTML = _.join(['Hello', 'webpack'], '');
-
-	return element;
-
-
-}
-
-
-document.body.appendChild(component());
+document.querySelector('#box').innerText = cow.say('Weback é legal mas ainda eu to aprendendo!')
